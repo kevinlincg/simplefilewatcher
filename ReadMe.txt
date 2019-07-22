@@ -28,8 +28,3 @@ To run the demo, create a directory relative to the execution directory
 called "test". Start SimpleDemo, then create/change/delete files inside
 "test". If "test" does not exist when SimpleDemo starts, it will throw
 an exception and exit.
-
-
-OgreDemo:
-
-Check the OgreDemo directory for an example integration with Ogre.
