@@ -33,22 +33,3 @@ an exception and exit.
 OgreDemo:
 
 Check the OgreDemo directory for an example integration with Ogre.
-
-
-Caveats:
-
-When some programs write data in Win32, they will generate both an Add,
-and a Modify event. This is likely because the program is actually using
-two separate calls to write its data.
-
-Because of the time it takes to write the data to the file, it may be
-necessary in some cases to wait a few milliseconds after the event to be
-able to safely access the file's contents.
-
-
-------------------------------
-Written by James Wynn
-Contact: james@jameswynn.com
-
-The most recent version can be located at:
-http://simplefilewatcher.googlecode.com
